@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INC Grades Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class = "image" alt= "confused-student">
+        <img src="/Users/eslemvarank/Desktop/DALL·E 2024-02-08 16.52.34 - A realistic depiction of a college student, focusing on the body part with a confused expression and scratching their head. The student is dressed in .webp">
+    </div>
+    <div class="inc-grade-container" style="background-color: rgba(128, 128, 128, 0.323); margin-top: -125vh; height: 600px; width: 280px; margin-right: 25px; border-radius: 35px;">
+        <div class="inc-grade-title">
+            <span class="inc-grade-text">
+                <span>
+                    <p>INC grades indicate that a student has not finished all class
+                    assignments. You may have time to complete your missing work to
+                    get a letter grade before your INC grade becomes a “FIN”.</p>
+                </span>
+            </span>
+            <span class="inc-grade-text02 Heading1">
+                <span><h1>Have you ever heard about INC grades?</h1></span>
+            </span>
+            <div class="inc-grade-button">
+                <button class="inc-grade-button1">
+                    <span class="inc-grade-text04 Text2">
+                        <span>Learn more</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="inc-grade-navbar">
+            <div class="inc-grade-menu">
+                <span class="inc-grade-text06 Text21">
+                    <span>Home</span>
+                </span>
+                <span class="inc-grade-text06 Text21">
+                    <span>About</span>
+                </span>
+                <span class="inc-grade-text06 Text21">
+                    <span><a href = "services.html" class= "service-link ">Services</a></span>
+                </span>
+                <span class="inc-grade-text06 Text21">
+                    <span>
+                        Contact
+                        <span dangerouslySetInnerHTML={{}}>
+                    </span>
+                </span>
+            </div>
+        </div>
+        <div class="inc-grade-items" style="margin-left: -60vh">
+            <div class="inc-grade-frame01">
+                <div class="inc-grade-text14">
+                    <img src="/Users/eslemvarank/Desktop/school icons1.png" alt="INC grades totat" class="inc-grade-image" style="padding-left: 20px;" />
+                    <span class="inc-grade-text15" style="padding-left: 20px;">
+                        <span>150+</span>
+                    </span>
+                    <span class="inc-grade-text17 Text21">
+                        <span style="padding-left: 20px;">INC Grades at  BMCC</span>
+                    </span>
+                </div>
+            </div>
+            <div class="inc-grade-frame01">
+                <div class="inc-grade-text14">
+                    <img src="/Users/eslemvarank/Desktop/school icons copy.png" alt="INC grade successful" class="inc-grade-image" style="padding-left: 10px;"/>
+                    <span class="inc-grade-text15">
+                        <span style="padding-left: 20px;">63+</span>
+                    </span>
+                    <span class="inc-grade-text17 Text21">
+                        <span style="padding-left: 20px;">Successful INC Grades</span>
+                    </span>
+                </div>
+            </div>
+            <div class="inc-grade-frame01">
+                <div class="inc-grade-text14">
+                    <img src="/Users/eslemvarank/Desktop/school icons copy 2.png" alt="INC grade fail" class="inc-grade-image" style="padding-right: 3px" />
+                    <span class="inc-grade-text15">
+                        <span>37+</span>
+                    </span>
+                    <span class="inc-grade-text17 TextMedium2">
+                        <span>Got "A" After INC Grade</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="inc-grade-items1">
+            <span class="inc-grade-text29">
+                <span>
+                    Check the services page to find plugging that will help you for
+                    INC grades
+                </span>
+            </span>
+        </div>
+    </div>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "d4b1d3ac-fde7-4ef8-ae07-352a5448dbf6", // The ID of this integration.
+          region: "us-east", // The region your integration is hosted in.
+          serviceInstanceID: "cbce648f-0414-40d7-9988-fda032dcf9aa", // The ID of your service instance.
+          onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+    </body>
+</html>

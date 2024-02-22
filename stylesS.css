@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #f8f8f8;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+  }
+  .content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: white;
+  }
+   .content .services {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    width: 45%;
+  }
+  /*Block left*/
+  .content .text-block {
+    background-color: rgba(132, 132, 132, 0.298);
+    width: 350px;
+    height: 575px;
+    margin-left: 10px;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
+
+  h1 {
+    color: rgba(38, 64, 101, 1);
+    font-size: 3em;
+    margin-left: 30%;
+    width: 500px;
+    line-height: 70px;
+  }
+  .text1 {
+    line-height: 1.6;
+    margin-left: 30%;
+  }
+
+  p.text1 {
+    width: 450px;
+  }
+
+  .services {
+    margin-left: auto;
+    
+  }
+  .service-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: -10px;
+    padding-bottom: 30%;
+  }
+  .service-icon {
+    width: 50px; /* Placeholder size */
+    height: 50px;
+    background-color: #ddd; /* Placeholder color */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right:-50vh;
+  }
+  p.service-icon {
+    width: 200%; 
+  }
+
+/*Navbar*/
+  .inc-grade-textNavbar {
+    color: var(--dl-color-default-darkblue);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+    font-size: 15px;
+    font-family: verdana;
+  }
+
+  .inc-grade-navbar {
+    top: -50px;
+    left: 0px;
+    width: 192px;
+    height: 120px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: -14%;
+  }
+
+  .inc-grade-menu {
+    gap: 55px;
+    top: 76px;
+    left: 1220px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a, .calander-link, .calander-link:visited{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    /* You can add other styles like color change */
+    color: black; /* Example color change on hover */
+  }

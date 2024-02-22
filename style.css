@@ -1,0 +1,241 @@
+.inc-grade-container {
+    width: 100%; /* Use full width for smaller screens */
+    max-width: 900px; /* Maximum width to ensure content doesn't stretch too far on larger screens */
+    margin: 0 auto; /* Center the container */
+    display: flex;
+    overflow: auto;
+    min-height: 50vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; /* Add some padding */
+    background-color: rgba(128, 128, 128, 0.601);
+  }
+  .inc-grade-inc-grade {
+    gap: 10px;
+    width: 100%;
+    height: 1117px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  
+  .inc-grade-title {
+    top: 188px;
+    left: 893px;
+    width: 809px;
+    height: 388px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .inc-grade-text {
+    top: 120px;
+    color: var(--dl-color-default-gray2);
+    width: 580px;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Verdana;
+    font-weight: 400;
+    line-height: 40px;
+    font-stretch: normal;
+    text-decoration: none;
+    margin-left: -20px;
+    top: 80px;
+
+  }
+  .inc-grade-text02 {
+    color: var(--dl-color-default-darkblue);
+    width: 65%;
+    height: auto;
+    position: absolute;
+    text-align: left;
+    margin-left: -20px;
+    font-family: Verdana;
+    font-size: 22px;
+    line-height: normal;
+    top: -15%;
+    color: rgba(38, 64, 101);
+  }
+  .inc-grade-button {
+    top: 275px;
+    margin-left: -20px;
+    width: 90px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    
+  }
+  .inc-grade-button1 {
+    gap: 8px;
+    top: 0px;
+    left: 0px;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    padding: 8px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 32px;
+    justify-content: center;
+    background-color: rgba(38, 64, 101);
+    border-color: rgba(38, 64, 101);
+    color: white;
+  }
+  .inc-grade-text04 {
+    color: var(--dl-color-default-white);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .inc-grade-navbar {
+    top: -50px;
+    left: 0px;
+    width: 192px;
+    height: 120px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: -14%;
+  }
+  .inc-grade-menu {
+    gap: 55px;
+    top: 76px;
+    left: 1220px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+  }
+  .inc-grade-text06 {
+    color: var(--dl-color-default-darkblue);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+    font-size: 15px;
+    font-family: verdana;
+  }
+  .inc-grade-items {
+    gap: 30px;
+    top: 555px;
+    margin-left: 53%;
+    width: 380px;
+    height: 120px;
+    display: flex;
+    padding: 32px;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 16px;
+    justify-content: center;
+    background-color: rgba(38, 64, 101, 0.388);
+  }
+  .inc-grade-frame01 {
+    gap: 20px;
+    display: flex;
+    box-shadow: none ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .inc-grade-text14 {
+    gap: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .inc-grade-image {
+    width: 70px;
+    height: 70px;
+    margin-top: -8px;
+
+  }
+  .inc-grade-text15 {
+    color: var(--dl-color-default-darkblue);
+    height: auto;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Verdana;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .inc-grade-text17 {
+    color: rgba(255, 255, 255, 1);
+    width: 135px;
+    height: auto;
+    text-align: center;
+    line-height: normal;
+    font-family: verdana;
+  }
+
+  .inc-grade-image3 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .inc-grade-image4 {
+    width: 83px;
+    height: 83px;
+  }
+
+  .inc-grade-items1 {
+    gap: 60px;
+    top: -250px;
+    left: -300px;
+    width: 444px;
+    height: 364px;
+    display: flex;
+    padding: 91px 32px 0 100px;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 16px;
+    justify-content: center;
+    background-color: rgba(38, 64, 101, 0.20999999344348907);
+  }
+  .inc-grade-text29 {
+    color: rgba(38, 64, 101, 1);
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: right;
+    font-family: verdana;
+    font-weight: 700;
+    margin-top: 52%;
+    margin-right: -250px;
+
+  }
+
+  /* .rectangle {
+    background-color: grey;
+    color: grey;
+    width: 150px;
+    height: 250px;
+    margin-top: -100px;
+
+  } */
+
+  a, .service-link, .service-link:visited{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    /* You can add other styles like color change */
+    color: black; /* Example color change on hover */
+  }
+

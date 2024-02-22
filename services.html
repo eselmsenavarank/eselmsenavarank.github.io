@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Page</title>
+    <link rel="stylesheet" href="stylesS.css">
+</head>
+
+<body>
+    <body>
+        <div class="inc-grade-navbar">
+            <div class="inc-grade-menu">
+                <span class="inc-grade-textNavbar Text21">
+                    <span><a src="index.css">Home</a></span>
+                </span>
+                <span class="inc-grade-textNavbar Text21">
+                    <span>About</span>
+                </span>
+                <span class="inc-grade-textNavbar Text21">
+                    <span><a href = "services.html" class= "service-link ">Services</a></span>
+                </span>
+                <span class="inc-grade-textNavbar Text21">
+                    <span>
+                        Contact
+                        <span dangerouslySetInnerHTML={{}}>
+                    </span>
+                </span>
+            </div>
+        </div>
+        
+        <div class="content">
+          <div class="text-block">
+            <h1 class ="text1">Try these available services to easily follow up with INC grades</h1>
+            <p class="text1">All missing coursework must be completed no later than the deadline posted on the <a href="#">academic calendar</a>. If your work is not submitted by that deadline, your INC will become an FIN (failure from incomplete). To reduce the risk of missing deadline, you can use these services.</p>
+          </div>
+          <div class="services" style="background-color: rgba(38, 64, 101, 0.20999999344348907); width: 15%; height: 500px; border-radius: 30px; margin-right: 5%; margin-top: 5%">
+            <div class="service-item" style="margin-left: 60%">
+              <div class="service-icon">
+                <!-- Replace with actual icon image -->
+                <img class ="icon-img" src="/Users/eslemvarank/Desktop/school icons copy 5.png" alt="Calendar" style= " width: 100px;height: 100px; margin-top: -20px;">
+              </div>
+              <div>
+                <h2><a href="calenderPlug.html" class ="calander-link">Calendar Plugging</a></h2>
+                <p style="width: 70%">You can add this plugging to your mobile calendar to follow up with assignments has INC grades</p>
+              </div>
+            </div>
+            <div class="service-item" style="margin-left: 60%">
+              <div class="service-icon">
+                <!-- Replace with actual icon image -->
+                <img src="/Users/eslemvarank/Desktop/school icons copy 4.png" alt="Deadline" style= " width: 100px;height: 100px; margin-top: -20px;">
+              </div>
+              <div>
+                <h2><a href="countdownPage.html" class="calender-link">Deadline Countdown</h2>
+                <p style="width: 80%">See how many days you have for next incomplete assignment's due date</p>
+              </div>
+            </div>
+            <div class="service-item" style="margin-left: 60%" >
+              <div class="service-icon">
+                <!-- Replace with actual icon image -->
+                <img class ="icon-img" src="/Users/eslemvarank/Desktop/Screen Shot 2024-02-16 at 8.16.37 AM.png" alt="Discord" style= " width: 100px; height: 100px; margin-top: -20px;">
+              </div>
+              <div>
+                <h2>Join Our Discord Channel</h2>
+                <p style="width: 85%">Connect with other student who got INC grades</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "d4b1d3ac-fde7-4ef8-ae07-352a5448dbf6", // The ID of this integration.
+          region: "us-east", // The region your integration is hosted in.
+          serviceInstanceID: "cbce648f-0414-40d7-9988-fda032dcf9aa", // The ID of your service instance.
+          onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+        
+    </body>
+</html>>
